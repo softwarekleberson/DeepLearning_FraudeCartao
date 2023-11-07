@@ -1,0 +1,9 @@
+                                Precisão
+
+Considera apenas as transações com fraude, ou seja classe 1
+
+numero acertos fraudes (acertos do modelo) / numero transações com fraude (transações totais com fraude)
+
+A formula esta na figura, está contida na segunda linha
+No exemplo da professora é 36 / 49
+

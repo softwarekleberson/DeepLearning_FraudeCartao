@@ -1,0 +1,6 @@
+O recall, pega o numero de acertos com fraude e divide pelo numero de erros sem fraude
+
+Calculo está na linha a direita
+36 / 49
+
+Essa metrica vem junta com a precisao, pois com essa metrica dá para saber as transações normais que foram classificadas com fraude e assim saber o numero de erros que podem acontecer
