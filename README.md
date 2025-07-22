@@ -1,57 +1,56 @@
-# Detecção de Fraudes em Transações Financeiras usando Aprendizado de Máquina
+# Fraud Detection in Financial Transactions Using Machine Learning
 
-## Autores
+## Authors
 - **Kleberson Dos Santos Silva**  
 - **Mariângela F.F. Molina**
 
-## Resumo
-Este projeto compara três algoritmos de aprendizado de máquina — Árvore de Decisão, Floresta Aleatória e AdaBoost — para detecção de fraudes em transações com cartão de crédito. O estudo avalia o impacto dessas abordagens em termos de acurácia, precisão e recall, considerando desafios como desbalanceamento de classes e eficiência computacional.
+## Abstract
+This project compares three machine learning algorithms — Decision Tree, Random Forest, and AdaBoost — for fraud detection in credit card transactions. The study evaluates the impact of these approaches in terms of accuracy, precision, and recall, considering challenges such as class imbalance and computational efficiency.
 
-## Palavras-chave
-- Árvore de Decisão
-- Floresta Aleatória
-- AdaBoost
-- Índice de Gini
-- Detecção de Fraude
+## Keywords
+- Decision Tree  
+- Random Forest  
+- AdaBoost  
+- Gini Index  
+- Fraud Detection
 
-## Estrutura do Artigo
-1. **Introdução**  
-   Discussão sobre o uso crescente de aprendizado de máquina na detecção de fraudes em cartões de crédito.
-2. **Materiais e Métodos**  
-   - Algoritmos: Árvore de Decisão (CART), Floresta Aleatória e AdaBoost.  
-   - Dados: 284.807 transações, sendo 0,17% fraudulentas.  
-   - Estratégias de implementação e análise comparativa.
-3. **Referencial Teórico**  
-   Revisão de técnicas avançadas para detecção de fraudes.
-4. **Resultados e Discussão**  
-   Comparação detalhada do desempenho dos algoritmos em termos de acurácia, precisão e recall.
-5. **Conclusão**  
-   AdaBoost se destacou como o mais eficaz em cenários complexos, enquanto a Floresta Aleatória apresentou um bom equilíbrio entre desempenho e custo computacional.
+## Article Structure
+1. **Introduction**  
+   Discussion on the growing use of machine learning in credit card fraud detection.
+2. **Materials and Methods**  
+   - Algorithms: Decision Tree (CART), Random Forest, and AdaBoost.  
+   - Data: 284,807 transactions, with 0.17% fraudulent.  
+   - Implementation strategies and comparative analysis.
+3. **Theoretical Framework**  
+   Review of advanced techniques for fraud detection.
+4. **Results and Discussion**  
+   Detailed comparison of algorithm performance in terms of accuracy, precision, and recall.
+5. **Conclusion**  
+   AdaBoost stood out as the most effective in complex scenarios, while Random Forest showed a good balance between performance and computational cost.
 
-## Resultados
-| Algoritmo           | Acurácia | Recall | Tempo de Execução |
-|---------------------|----------|--------|-------------------|
-| Árvore de Decisão   | 99.1%    | 0.71   | 5:29              |
-| Floresta Aleatória  | 99.4%    | 0.75   | 15:55             |
-| AdaBoost            | 99.6%    | 0.79   | 23:05             |
+## Results
 
-## Conjunto de Dados
-- **Total de transações**: 284.807  
-- **Transações fraudulentas**: 492 (0,17%)  
-- **Transações legítimas**: 284.315 (99,83%)
+| Algorithm         | Accuracy | Recall | Execution Time |
+|------------------|----------|--------|----------------|
+| Decision Tree     | 99.1%    | 0.71   | 5:29           |
+| Random Forest     | 99.4%    | 0.75   | 15:55          |
+| AdaBoost          | 99.6%    | 0.79   | 23:05          |
 
-O desbalanceamento das classes foi tratado utilizando a biblioteca `StratifiedShuffleSplit`.
+## Dataset
+- **Total transactions**: 284,807  
+- **Fraudulent transactions**: 492 (0.17%)  
+- **Legitimate transactions**: 284,315 (99.83%)
 
-## Repositório de Código
-O código-fonte usado para a implementação dos algoritmos está disponível no [GitHub](https://github.com/softwarekleberson/DeepLearning_FraudeCartao).
+Class imbalance was handled using the `StratifiedShuffleSplit` library.
 
-## Referências
-- DEVI, D. et al. *A Cost-sensitive weighted Random Forest Technique for Credit Card Fraud Detection*. IEEE Xplore, 2019.  
+## Code Repository
+The source code used for implementing the algorithms is available on [GitHub](https://github.com/softwarekleberson/DeepLearning_FraudeCartao).
+
+## References
+- DEVI, D. et al. *A Cost-sensitive Weighted Random Forest Technique for Credit Card Fraud Detection*. IEEE Xplore, 2019.  
 - KHINE, A.A.; KHIN, H.W. *Credit Card Fraud Detection Using Online Boosting with Extremely Fast Decision Tree*. IEEE Xplore, 2020.  
 - LIN, T.H.; JIANG, J.R. *Credit Card Fraud Detection with Autoencoder and Probabilistic Random Forest*. MDPI, 2021.  
-- [Mais referências disponíveis no artigo](https://github.com/softwarekleberson/DeepLearning_FraudeCartao).
+- [More references available in the article](https://github.com/softwarekleberson/DeepLearning_FraudeCartao)
 
-## Contato
-Para mais informações, entre em contato com os autores.
-
----
+## Contact
+For more information, please contact the authors.
